@@ -6,13 +6,13 @@ import sys
 
 
 runfile = sys.argv[2]
-config = "/afs/cern.ch/user/m/mnickel/private/LightByLight2018/analysis/configs/efficiencies.md"
+config = "/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/efficiencies.md"
 input_file = sys.argv[1]
 ending = input_file[(input_file.find("HiForestAOD") + len("HiForestAOD")):]
 
-sig_mu = "/eos/user/m/mnickel/TauTau/data/data_sig_mu"
-mu_ele = "/eos/user/m/mnickel/TauTau/data/data_mu_ele"
-mu_mu = "/eos/user/m/mnickel/TauTau/data/data_mu_mu"
+sig_mu = "/eos/user/c/clemahie/TauTau/data/data_sig_mu"
+mu_ele = "/eos/user/c/clemahie/TauTau/data/data_mu_ele"
+mu_mu = "/eos/user/c/clemahie/TauTau/data/data_mu_mu"
 
 f = open(runfile,"a")
 f.write( config + "\n")
