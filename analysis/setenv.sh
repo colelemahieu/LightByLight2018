@@ -33,4 +33,5 @@ export LD_LIBRARY_PATH=/eos/cms/store/group/phys_diffraction/lbyl_2018/libPNG/li
 # setup ROOT
 #. /cvmfs/sft.cern.ch/lcg/releases/LCG_89/ROOT/6.10.02/x86_64-centos7-gcc7-opt/bin/thisroot.sh
 #. /cvmfs/sft.cern.ch/lcg/releases/LCG_91/ROOT/6.10.06/x86_64-centos7-gcc7-opt/bin/thisroot.sh
-. /cvmfs/sft.cern.ch/lcg/releases/LCG_96/ROOT/6.18.00/x86_64-centos7-gcc8-opt/bin/thisroot.sh
+#. /cvmfs/sft.cern.ch/lcg/releases/LCG_96/ROOT/6.18.00/x86_64-centos7-gcc8-opt/bin/thisroot.sh
+#. /cvmfs/sft.cern.ch/lcg/releases/LCG_96/ROOT/6.22.08/x86_64-centos7-gcc8-opt/bin/thisroot.sh

@@ -8,7 +8,7 @@ import sys
 runfile = sys.argv[2]
 config = "/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/efficiencies.md"
 input_file = sys.argv[1]
-ending = input_file[(input_file.find("HiForestAOD") + len("HiForestAOD")):]
+ending = input_file[(input_file.find("data_HiForwardAOD") + len("data_HiForwardAOD")):]
 
 sig_mu = "/eos/user/c/clemahie/TauTau/data/data_sig_mu"
 mu_ele = "/eos/user/c/clemahie/TauTau/data/data_mu_ele"
@@ -21,3 +21,5 @@ f.write( sig_mu + ending+ "\n")
 f.write( mu_ele + ending + "\n")
 f.write( mu_mu + ending + "\n")
 f.close()
+print("ending: ")
+print(ending)

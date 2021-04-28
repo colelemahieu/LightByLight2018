@@ -6,5 +6,5 @@ inputPathData=`sed "${index}q;d" /afs/cern.ch/user/c/clemahie/private/LightByLig
 echo "${inputPathData}"
 
 python /afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/input_files/MakeInputFile.py "${inputPathData}" "/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/input_files/condor_inputfiles/tmp_runfile_${2}_${1}.txt"
-/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/applySelections.cpp "TauTau" "/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/input_files/condor_inputfiles/tmp_runfile_${2}_${1}.txt" "Data"
+/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/applySelections "TauTau" "/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/input_files/condor_inputfiles/tmp_runfile_${2}_${1}.txt" "Data"
 done
