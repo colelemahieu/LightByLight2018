@@ -1,0 +1,5 @@
+/afs/cern.ch/user/c/clemahie/private/LightByLight2018/analysis/configs/efficiencies.md
+/eos/cms/store/group/phys_diffraction/lbyl_2018/HIForward_Reco/ntuples/ntuples_data/HIForward/ntuples_data_lbl/200617_140125/0003/data_HiForwardAOD_1-3116.root
+/eos/user/c/clemahie/TauTau/data/data_sig_mu_1-3116.root
+/eos/user/c/clemahie/TauTau/data/data_mu_ele_1-3116.root
+/eos/user/c/clemahie/TauTau/data/data_mu_mu_1-3116.root
